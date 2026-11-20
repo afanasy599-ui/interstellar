@@ -1,0 +1,10 @@
+{
+  "tesseract_quote": {
+    "sounds": [
+      {
+        "name": "interstellar_experience:tesseract_quote",
+        "stream": false
+      }
+    ]
+  }
+}

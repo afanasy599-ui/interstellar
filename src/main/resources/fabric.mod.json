@@ -3,12 +3,14 @@
   "id": "interstellar_experience",
   "version": "${version}",
   "name": "Interstellar Experience",
-  "description": "A cinematic Tesseract dimension that mirrors the current world's saved terrain.",
-  "authors": ["Afanasy", "OpenAI"],
+  "description": "Client-side cinematic Tesseract: records local world snapshots and displays them as a multidimensional time structure.",
+  "authors": ["Afanasy"],
+  "contact": {},
   "license": "MIT",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": ["dev.afanasy.interstellar.InterstellarExperience"]
+    "main": ["dev.afanasy.interstellar.InterstellarExperience"],
+    "client": ["dev.afanasy.interstellar.client.InterstellarExperienceClient"]
   },
   "depends": {
     "fabricloader": ">=0.19.0",
