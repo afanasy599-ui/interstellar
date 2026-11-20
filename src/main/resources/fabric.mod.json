@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "interstellar_experience",
+  "version": "${version}",
+  "name": "Interstellar Experience",
+  "description": "A cinematic Tesseract dimension that mirrors the current world's saved terrain.",
+  "authors": ["Afanasy", "OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.afanasy.interstellar.InterstellarExperience"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.0"
+  }
+}
